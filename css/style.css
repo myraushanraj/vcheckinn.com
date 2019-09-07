@@ -1,0 +1,213 @@
+.color-background{
+    background: #3cbd3c;
+   
+}
+p,h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-image: url("http://images.treebohotels.com/images/hotrod/homepage-desktop-banner-11-4-18.png?fm=pjpg&auto=compress");
+    background-size: cover;
+    background-position: 50%;
+}
+.container-custom{
+padding:13px 83px 249px 83px;
+}
+.city-list{
+    padding:13px 83px 13px 83px;
+    box-shadow: 0px 0px 9px 0px grey;
+}
+.introducing{
+    padding:13px 83px 13px 83px;
+}
+.offer-popup{
+    text-align: center;
+     padding: 8px;
+    color: #fff;
+    margin:0px;
+}
+.menu-wrap{
+    list-style: none;
+
+}
+.menu-wrap li{
+    float: left;
+    padding: 9px 12px; 
+}
+.menu-wrap li a{
+    font-size: 16px;
+    color:#fff;
+}
+.menu-wrap li a i{
+font-size: 21px;
+padding-right: 3px;
+color:#ffffff;
+}
+
+.banner-content-wrap{
+margin-top: 112px;
+}
+.banner-content-wrap h2{
+    color:#fff;
+    font-weight: 600;
+}
+.banner-content-wrap p{
+    color:#fff;
+    font-size: 16px;
+}
+.search-box input,.search-box select,.search-box select option,.search-box a{
+    height: 50px!important;
+    
+}
+.search-box a{
+    border:1px solid #3cbd3c;
+    color:#ffffff;
+    line-height: 50px;
+    text-align: center;
+
+}
+.search-box{
+    margin-top:40px;
+}
+
+.city-list-wrap ul{
+    list-style: none;
+
+}
+.city-list-wrap ul li{
+   float:left;
+   margin-right: 71px;
+}
+.city-list-wrap ul li a{
+    color:gray;
+ 
+ }
+ .introducing-box{
+     border:1px solid #000000;
+    box-shadow:  -5px 7px 2px 0px #3cbd3c;
+    background:#000000;
+    padding:40px;
+    color:#ffffff;
+    margin:39px 0px;
+ }
+ .title{
+margin-top:55px;     
+font-weight:600;
+text-align: center;
+ }
+ .title-desc{
+color:gray;
+ }
+
+
+
+ .menu-wrap-search{
+    list-style: none;
+
+}
+.menu-wrap-search li{
+    float: right;
+    padding: 9px 12px; 
+}
+.menu-wrap-search li a{
+    font-size: 16px;
+    color:#000;
+}
+.header-search{
+    background: #fff;
+}
+
+.container-custom-search{
+    padding:13px 83px 249px 83px;
+}
+.search-total{
+    text-align: left;
+    color:gray!important;
+}
+.search-wrap{
+    margin-top: 0px;
+}
+.header-search{
+    box-shadow: 0px 0px 10px grey;
+    padding: 11px 83px 11px 83px;
+}
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.sort-wrap{
+    margin: 23px 0px;
+    padding: 1px 9px;
+    box-shadow: 1px 1px 4px 0px grey;
+    border-radius: 2px;
+}
+
+
+.sort-wrap-details{
+    padding: 1px 9px;
+    box-shadow: 1px 1px 4px 0px grey;
+    border-radius: 2px;
+}
+.sort-wrap h4{
+    color:gray;
+}
+.sort-wrap .checkbox input[type=checkbox]{
+    height:16px!important;
+    width:16px!important;
+}
+.sort-wrap .checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 23px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 16px;
+    color: #5f5c5c;
+}
+.hotels-details-wrap{
+    margin: 23px 0px;
+    padding: 12px 9px;
+    box-shadow: 1px 1px 4px 0px grey;
+    border-radius: 2px;
+}
+
+.travel-hotel-details{
+    padding: 12px 9px;   
+}
+.hotel-add{
+    color:gray;
+}
+.img-100{
+    width:100%;
+}
+.travel-sort-wrap-details{
+    margin: 23px 0px;
+   box-shadow: 1px 1px 4px 0px grey;
+    border-radius: 2px;
+}
+
+.primary-travel-details{
+    margin: 23px 0px;
+    padding: 1px 9px;
+    box-shadow: 1px 1px 4px 0px grey;
+    border-radius: 2px;
+}
+.primary-travel-details input,.primary-travel-details button{
+width:51%;
+border: none;
+border-bottom: 1px solid gray;
+margin: 26px 10px;
+}
+.primary-travel-details button{
+    padding: 13px;
+}
