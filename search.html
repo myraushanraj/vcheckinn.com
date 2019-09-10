@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>vcheckinn</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -12,6 +12,68 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- font family -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+<style>
+  .styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  color:#9b9b9b;
+  font-weight: 400;
+}
+.styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 17px;
+  height: 17px;
+  background: white;
+  border:1px solid #9b9b9b;
+  font-weight: 400;
+}
+.styled-checkbox:hover + label:before {
+  background: #0eb550;
+}
+.styled-checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.styled-checkbox:checked + label:before {
+  background: #0eb550;
+}
+.styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+}
+.styled-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 9px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+  </style>
 </head>
 <body>
 
@@ -23,14 +85,14 @@
     <div class="row  header-search">
         <div class="col-xs-3 col-sm-8 col-lg-8">
           <div class="logo">
-              <a href="index.html"><img src="https://images.treebohotels.com/images/hotrod/treebo-new-logo-white.svg"/></a>
+              <a href="index.html"><img src="https://images.treebohotels.com/images/hotrod/treebo-new-logo-black.svg"/></a>
               
             </div>
         </div>
         <div class="col-xs-9 col-sm-4 col-lg-4">
           <ul class="menu-wrap-search">
           
-            <li><a href="#">Login</a></li>
+            <li><a href="login.html">Login</a></li>
             </ul>
         </div>
       </div>
@@ -67,73 +129,118 @@
     <div class="col-xs-12 col-sm-12 col-lg-3">
      <div class="price-range sort-wrap">
        <h4>PRICE RANGE</h4>
-        <div class="checkbox">
-            <label><input type="checkbox" value="">₹0-₹410</label>
+        <div class="checkbox-wrap">
+            
+            <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+            <label for="styled-checkbox-1">₹0-₹410</label>
+
+           
         </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="">₹410-₹820</label>
+        <div class="checkbox-wrap">
+            <input class="styled-checkbox" id="styled-checkbox-11" type="checkbox" value="value1">
+            <label for="styled-checkbox-11">₹410-₹820</label>
         </div>
-        <div class="checkbox">
-            <label><input type="checkbox" value="">₹820-₹12300</label>
+        <div class="checkbox-wrap">
+            <input class="styled-checkbox" id="styled-checkbox-111" type="checkbox" value="value1">
+            <label for="styled-checkbox-111">₹820-₹1330</label>
         </div>
-        <div class="checkbox">
-            <label style="padding-left:0px"> Show all available hotels   <input style="margin-left:12px" type="checkbox" value=""></label>
+        <div class="checkbox-wrap">
+            <input class="styled-checkbox" id="styled-checkbox-1111" type="checkbox" value="value1">
+            <label for="styled-checkbox-1111">Show only available hotels</label>
         </div>
+
      </div>
 
      <div class="localities-range sort-wrap">
         <h4>LOCALITIES </h4>
-         <div class="checkbox">
-             <label><input type="checkbox" value=""> New Ashok Nagar</label>
-         </div>
-         <div class="checkbox">
-            <label><input type="checkbox" value=""> Sultanpur</label>
+        <div class="checkbox-wrap">
+            <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value1">
+            <label for="styled-checkbox-2">New ashok nagar</label>
+        </div>
+        <div class="checkbox-wrap">
+            <input class="styled-checkbox" id="styled-checkbox-22" type="checkbox" value="value1">
+            <label for="styled-checkbox-22">Delhi</label>
         </div>
          
         
       </div>
+
+      <div class="localities-range sort-wrap">
+          <h4>AMENITIES  </h4>
+          <div class="checkbox-wrap">
+              <input class="styled-checkbox" id="styled-checkbox-3" type="checkbox" value="value1">
+              <label for="styled-checkbox-3">Cable/DTH</label>
+          </div>
+          <div class="checkbox-wrap">
+              <input class="styled-checkbox" id="styled-checkbox-22" type="checkbox" value="value1">
+              <label for="styled-checkbox-22">Restaurant On Premises</label>
+          </div>
+
+          <div class="checkbox-wrap">
+              <input class="styled-checkbox" id="styled-checkbox-24" type="checkbox" value="value1">
+              <label for="styled-checkbox-24">Free Wifi</label>
+          </div>
+          <div class="checkbox-wrap">
+              <input class="styled-checkbox" id="styled-checkbox-23" type="checkbox" value="value1">
+              <label for="styled-checkbox-23">Complimentary water</label>
+          </div>
+         
+           
+          
+        </div>
       </div>
     <div class="col-xs-12 col-sm-12 col-lg-9">
+       <div class=" hotel-content">
      <div class="hotels-details-wrap">
        <div class="col-xs-3 col-sm-3 col-lg-3">
          <img class="img-responsive" src="https://cs-images.treebo.com/Treebo_Trend_Hotel_Swiss/common/Common_1_.jpg?w=180&h=135&fit=crop&fm=pjpg"/>
       
         </div>
        <div class="col-xs-6 col-sm-6 col-lg-6">
-         <h4>Hotel Trend Swiss</h4>
+         <h4 class="font-weight">Hotel Trend Swiss</h4>
          <p class="hotel-add">New Ashok Nagar, New Delhi</p>
-         <button class="btn btn-default">Standard</button> &nbsp;<button class="btn btn-success">Certified</button>
+         <button class="btn-standard">Standard</button> &nbsp; &nbsp;<button class="btn-certified">Certified</button>
         <p>Distance: 3 km from Delhi International Airport </p>
         </div>
-       <div class="col-xs-3 col-sm-3 col-lg-3">
-         <h4>₹1244</h4>
-         <p>Tax incl. price for 1 night</p>
-         <a class="btn btn-success" href="travel-details.html">QUICK BOOK</a>
+       <div class="col-xs-3 col-sm-3 col-lg-3 text-right">
+         <h4 class="font-weight">₹1244</h4>
+         <p class="tx hotel-add">Tax incl. price for 1 night</p>
+         <a class="custom-btn pull right" href="travel-details.html"><i class="fa fa-bolt"></i> &nbsp; &nbsp;QUICK BOOK</a>
        </div>
        <div class="clearfix"></div>
      </div>
-
+<hr class="undeline">
      <div class="hotels-details-wrap">
         <div class="col-xs-3 col-sm-3 col-lg-3">
           <img class="img-responsive" src="https://cs-images.treebo.com/Treebo_Trend_Hotel_Swiss/common/Common_1_.jpg?w=180&h=135&fit=crop&fm=pjpg"/>
        
          </div>
         <div class="col-xs-6 col-sm-6 col-lg-6">
-          <h4>Hotel Trend Swiss</h4>
+          <h4 class="font-weight">Hotel Trend Swiss</h4>
           <p class="hotel-add">New Ashok Nagar, New Delhi</p>
-          <button class="btn btn-default">Standard</button> &nbsp;<button class="btn btn-success">Certified</button>
+          <button class="btn-standard">Standard</button> &nbsp; &nbsp;<button class="btn-certified">Certified</button>
          <p>Distance: 3 km from Delhi International Airport </p>
          </div>
-        <div class="col-xs-3 col-sm-3 col-lg-3">
+        <div class="col-xs-3 col-sm-3 col-lg-3 text-right">
          
           <button class="btn btn-danger">SOLD OUT</button>
         </div>
         <div class="clearfix"></div>
       </div>
     </div>
+    </div>
 <!-- hotels list end here -->
 
  </div>
+
+
+
+
+
+
+   
+ 
+  
 
 
 
