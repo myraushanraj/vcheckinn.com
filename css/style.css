@@ -461,4 +461,19 @@ padding:0px;
 
 .item-review p{
     line-height: 10px;
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 
+    font-weight:600;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  
+    font-weight:600;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ 
+    font-weight:600;
+}
+:-moz-placeholder { /* Firefox 18- */
+
+    font-weight:600;
 }
