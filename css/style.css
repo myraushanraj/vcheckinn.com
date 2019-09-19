@@ -335,3 +335,130 @@ hr {
     background:#0eb550;
     color:#fff;
 }
+
+/* hotel details css start here */
+.details-title{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    display: -ms-flexbox;
+    display: flex;
+    color: #4a4a4a;
+    font-weight: 800;
+}
+.details p{
+    font-family: Roboto;
+    color: #9b9b9b;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.details .btn-certified{
+background:rgb(68, 172, 149)!important;
+border-color: rgb(68, 172, 149)!important;
+}
+.details .btn-standard{
+ 
+    border-color: rgb(68, 172, 149)!important;
+}
+
+.details-review{
+    color:#0eb550!important;
+    font-size: 1.4rem!important;
+    font-weight: 400;
+    padding-top:14px;
+}
+.details-review a{
+    color:#0eb550!important;
+    font-size: 1.4rem!important;
+    font-weight: 400;
+   
+}
+.details-review img{
+    width:92px;
+   
+}
+
+.green{
+  color:#0eb550;  
+}
+.text-small{
+    font-size: 1.4rem!important;
+}
+:root {
+    --gray: #9b9b9b;
+  }
+.gray{
+    color:#9b9b9b!important;
+}
+.details{
+    margin-top:30px;
+}
+.m-t-z{
+    margin-top: 0px;
+}
+.section{
+    margin-top:30px;
+}
+
+.details-container{
+padding: 1px 83px 71px 83px;
+background: #fff;
+border-bottom: .1rem solid #f1f1f1;
+box-shadow: 0 0.2rem 0.4rem 0 rgba(0,0,0,.16);
+}
+
+.details-tab .nav-tabs{
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    padding: 10px 0px; 
+    margin-top: 27px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #0eb550;
+    cursor: default;
+    background-color: #fff;
+    border:none;
+    border-bottom-color: transparent;
+}
+.details-tab a {
+    color: #9b9b9b;
+    text-decoration: none;
+}
+.bc-fff{
+    background:#fff;
+}
+.room-type{
+    background: #fff;
+    padding:16px;
+    border-bottom: 1px solid #9b9b9b3d;
+
+}
+.border-no{
+    border:none!important;
+}
+.p-r-z{
+    padding-right: 0px;
+}
+.item-type-wrap .col-md-3{
+padding:0px;
+}
+.item-type-wrap{
+    padding: 3px 29px;
+}
+.room-fea span{
+    margin-left: 22px; 
+}
+.tab-box a{
+    color:blue!important;
+}
+.policy p{
+    color:var(--gray);
+    padding-top:0px;
+}
+.policy h3{
+    padding-bottom: 5px;
+}
+
+.item-review p{
+    line-height: 10px;
+}

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>vcheckinn</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <link rel='stylesheet' href='http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css'>
+
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- font family -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+<style>
+ 
+.product__slider-main {
+  margin-bottom: 15px;
+}
+.product__slider-main img {
+  margin: 0 auto;
+  width:100%;
+}
+.product__slider-thmb .slick-slide {
+	opacity: 0.5;
+    transition: all .3s ease;
+}
+
+.product__slider-thmb .slick-slide.slick-active, .product__slider-thmb .slick-slide:hover {
+	opacity: 1;
+}
+
+.product__slider-main, .product__slider-thmb {
+    display: none;
+}
+
+    </style>
+</head>
+<body>
+
+
+    <div class="alert alert-success alert-dismissible text-center" style="margin:0px">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        PRICE DROP ALERT : FLAT 50% off on all hotels. Book now, Offer ends in  
+      </div>     <!-- menu start here -->
+    <div class="row  header-search">
+        <div class="col-xs-3 col-sm-8 col-lg-8">
+          <div class="logo">
+              <a href="index.html"><img src="https://images.treebohotels.com/images/hotrod/treebo-new-logo-black.svg"/></a>
+              
+            </div>
+        </div>
+        <div class="col-xs-9 col-sm-4 col-lg-4">
+          <ul class="menu-wrap-search">
+          
+            <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+      </div>
+    <!-- menu end here -->
+ <div class="details-container"> 
+
+
+<!-- banner content start here -->
+        <div class="row">
+        
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+            <div class="banner-content-wrap search-wrap">
+            
+                <div class="search-box">
+                    <p class="search-total">Home > New Delhi > New Hotel</p>
+                    <input type="text" class="city col-md-3" placeholder="Search By City, Hotel Name" />
+                    <input type="date" class="from-date col-md-2"/>
+                    <input type="date" class="tll-date col-md-2"/>
+                    <select class="room col-md-3">
+                    <option>1 Adult, 1 Room</option>
+                    <option>2 Adult, 1 Room</option>
+                    <option>3 Adult, 1 Room</option>
+                    <option>4 Adult, 1 Room</option>
+                    </select>
+                    <a  class="tll-date col-md-2 color-background" type="submit" disabled>SEARCH</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Slider start here -->
+        <div class="row details">
+                <div class="col-md-7">
+                        <div class="wrapper">
+                            
+                                    <div id="product__slider">
+                                    <div class="product__slider-main">
+                                        <div class="slide"><img src="https://cs-images.treebo.com/Treebo_JD_Residency/MAPLE/Maple_4_.JPG?w=591&h=352&fm=pjpg&fit=crop" alt="" class="img-responsive"></div>
+                                        <div class="slide"><img src="https://cs-images.treebo.com/Treebo_JD_Residency/MAPLE/Maple_7_.JPG?w=591&h=352&fm=pjpg&fit=crop" alt="" class="img-responsive"></div>
+                                        <div class="slide"><img src="https://cs-images.treebo.com/Treebo_JD_Residency/MAPLE/Maple_4_.JPG?w=591&h=352&fm=pjpg&fit=crop" alt="" class="img-responsive"></div>
+                                        <div class="slide"><img src="https://cs-images.treebo.com/Treebo_JD_Residency/MAPLE/Maple_4_.JPG?w=591&h=352&fm=pjpg&fit=crop" alt="" class="img-responsive"></div>
+                                    </div>
+                                    <div class="product__slider-thmb">
+                                        <div class="slide"><img src="https://cs-images.treebo.com/Treebo_JD_Residency/MAPLE/Maple_4_.JPG?w=591&h=352&fm=pjpg&fit=crop" alt="" class="img-responsive"></div>
+                                        <div class="slide"><img src="https://cs-images.treebo.com/Treebo_JD_Residency/MAPLE/Maple_7_.JPG?w=591&h=352&fm=pjpg&fit=crop" alt="" class="img-responsive"></div>
+                                        <div class="slide"><img src="https://cs-images.treebo.com/Treebo_JD_Residency/MAPLE/Maple_4_.JPG?w=591&h=352&fm=pjpg&fit=crop" alt="" class="img-responsive"></div>
+                                        <div class="slide"><img src="https://cs-images.treebo.com/Treebo_JD_Residency/MAPLE/Maple_4_.JPG?w=591&h=352&fm=pjpg&fit=crop" alt="" class="img-responsive"></div>
+                                    </div>
+                                    </div>
+                                
+                                
+                                
+                                </div>
+                                
+
+                </div>
+                <div class="col-md-5">
+                    <h1 class="details-title m-t-z">New hotel residency</h1>
+                    <p>Noida sector 126</p>
+                    <button class="btn-standard">Standard</button>  &nbsp; &nbsp;<button class="btn-certified">Certified</button>&nbsp; &nbsp;<button class="btn-standard">Couple Friendly</button>
+                    <p class="details-review"><img src="https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-43523-5.svg"/>&nbsp;&nbsp; <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">8 reviews</a></p>
+                    <br/>  <br/>  <br/>
+                    <h3 class=price>₹999 <span class="green text-small">Refundable</span></h3>
+                    <p class="text-small">Tax incl. price for 1 night </p>
+                    <hr/>
+                    <br/>
+                    <h4>"BOOKTODAY" <span class="text-small gray">Coupon Code Pre-applied</span></h4>
+                    <br/>
+                    <p><a class="custom-btn" href="travel-details.html"> BOOK NOW</a>
+                    </div>
+        </div>
+ </div>
+ <div class="container-custom-search  details-tab"> 
+        <!-- specification start here -->
+        <div class="row ">
+            <div class="col-md-12">
+                    <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#home">Room Types </a></li>
+                            <li><a data-toggle="tab" href="#menu1"> About</a></li>
+                            <li><a data-toggle="tab" href="#menu2">Policy</a></li>
+                    </ul>
+                        
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                              <div class="tab-box bc-fff">
+                                  <h3 class="room-type"><strong>ROOM TYPE</strong></h3>
+                                 
+                                  <h3 class="room-type border-no">Economy Room</h3>
+                                   <p class="room-type border-no">80 Sqft &nbsp;&nbsp;&nbsp;&nbsp;2 Guests (Max 2 Adults)</p>
+                                   
+                                   <div class="row item-type-wrap">
+                                       <div class="col-md-3">
+                                           <img  src="https://cs-images.treebo.com/Treebo_JD_Residency/ACACIA/Acacia_5_.JPG?w=250&h=150&fit=crop&auto=compress" class="img-responsive" />
+                                       </div>
+                                       <div class="col-md-3">
+                                            <img  src="https://cs-images.treebo.com/Treebo_JD_Residency/ACACIA/Acacia_5_.JPG?w=250&h=150&fit=crop&auto=compress" class="img-responsive" />
+                                        </div>
+                                        <div class="col-md-3">
+                                                <img  src="https://cs-images.treebo.com/Treebo_JD_Residency/ACACIA/Acacia_5_.JPG?w=250&h=150&fit=crop&auto=compress" class="img-responsive" />
+                                         </div>
+                                        <div class="col-md-3">
+                                                    <img  src="https://cs-images.treebo.com/Treebo_JD_Residency/ACACIA/Acacia_5_.JPG?w=250&h=150&fit=crop&auto=compress" class="img-responsive" />
+                                        </div>
+                                   </div>
+
+                                   <p class="room-type border-no gray room-fea"><span>Complimentary Toiletries</span> <span>Cupboards</span>  <span>Geyser</span>  <span>Flat Screen Tv</span></p>
+
+
+                                </div>
+
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                    <div class="tab-box bc-fff">
+                                            <h3 class="room-type"><strong>ABOUT TREEBO TREND JD RESIDENCY</strong></h3>
+                                           
+                                            <h3 class="room-type border-no">Address</h3>
+                                             <p class="room-type border-no">Scf-116, Sector-58, Phase 5, Mohali, Kharar, Chandigarh, 160055</p>
+                                             
+                                             <div class="row item-type-wrap">
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14016.8393456014!2d77.1957642!3d28.563461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ff38d6ceabe1152!2sMamta%20Residency%20Inn!5e0!3m2!1sen!2sin!4v1568914711790!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                             </div>
+          
+                                             <p class="room-type border-no gray room-fea">Treebo JD Residency is a modern property located in Sector 58, Chandigarh. It is a newly constructed hotel which is ideal for all types of travellers and is located at a strategic location allowing for ease of convenience when navigating through the city. The hotel has a couple friendly policy which allows for unmarried couples to make hotel bookings without any hassles. In addition, the hotel also allows for local IDs during check in. The hotel comes with facilities that include a complimentary buffet breakfast that serves both vegetarian and non-vegetarian options and the cuisines offered are North Indian and Continental, free on-site parking which is uncovered, an in house restaurant, room service, free Wifi, laundry service via a third party that is chargeable, and iron boards as well. Treebo JD Residency comes with 21 rooms,</p>
+                                             <div class="row item-type-wrap">
+                                                 <div class="col-md-4">
+                                                     <p>Nearby Localities</p>
+                                                    
+                                                     <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+                                                     <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+
+                                                     <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                        <p>Nearby Localities</p>
+                                                       
+                                                        <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+                                                        <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+   
+                                                        <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+   
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                            <p>Nearby Localities</p>
+                                                           
+                                                            <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+                                                            <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+       
+                                                            <p><a href="#">Hotels in Mayur Vihar phase 2 </a></p>
+       
+                                                        </div>
+                                             </div>
+          
+                                          </div>
+                            </div>
+                            <div id="menu2" class="tab-pane fade policy">
+                                    <div class="tab-box bc-fff">
+                                            <h3 class="room-type"><strong>POLICIES</strong></h3>
+                                           
+                                            <h3 class="room-type border-no">Couple Friendly</h3>
+                                             <p class="room-type border-no">Treebo Trend JD Residency welcomes unmarried couples.</p>
+                                             <h3 class="room-type border-no">Local ID Policy</h3>
+                                             <p class="room-type border-no">Guests can check in using any local or outstation ID proof (PAN card not accepted).</p>
+                                             <h3 class="room-type border-no">Child Reservation Policy</h3>
+                                             <p class="room-type border-no">A maximum of 1 child upto an age of 8 years and an extra infant upto an age of 2 years is allowed free of charge, subject to room occupancy capacity. Breakfast will be included in stay but no extra bed or mattress will be provided. Extra person charges are applicable for anyone above 8 years of age. Extra person charges are also applicable for extra kids during check-in.</p>
+           
+          
+          
+          
+                                          </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+       <div class="clearfix"></div>
+        <div class="tab-box bc-fff">
+                <h3 class="room-type"><strong>NEARBY PLACES AND LANDMARKS</strong></h3>
+              <div class="col-md-6">
+                    <h4 class="room-type border-no">Nearby Malls & Restaurants</h4>
+                    <p class="border-no gray">Arabic Restro Lounge <span class="pull-right">2.8 km</span> </p>
+                    <p class="border-no gray">Arabic Restro Lounge <span class="pull-right">2.8 km</span> </p>
+                    <p class="border-no gray">Arabic Restro Lounge <span class="pull-right">2.8 km</span> </p>
+                    <p class="border-no gray">Arabic Restro Lounge <span class="pull-right">2.8 km</span> </p>
+
+                    
+              </div>  
+              <div class="col-md-6">
+                    <h4 class="room-type border-no">Closest Airport, Railway Station & Bus Stand
+                        </h4>
+                        <p class="border-no gray">Arabic Restro Lounge <span class="pull-right">2.8 km</span> </p>
+                        <p class="border-no gray">Arabic Restro Lounge <span class="pull-right">2.8 km</span> </p>
+                        <p class="border-no gray">Arabic Restro Lounge <span class="pull-right">2.8 km</span> </p>
+                        <p class="border-no gray">Arabic Restro Lounge <span class="pull-right">2.8 km</span> </p>
+
+              </div> 
+             
+              <div class="clearfix"></div>
+
+
+
+              </div>
+</div>
+<!-- hotels list start here -->
+
+<!-- modal class -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        
+        <div class="modal-body">
+                <div class="tab-box bc-fff">
+                        <h3 class="text-left"><strong>TRIPADVISOR RATINGS & REVIEWS FOR TREEBO TREND JD RESIDENCY</strong></h3>
+                      <div class="col-md-6">
+                          <div class="col-md-6">
+                                <h5 class="border-no">OVERALL RATINGS</h5>
+                                <h3 style="padding-bottom: 0px"><strong>3.0 /</strong>5</h3>
+                                <p class=""><img src="https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-43523-5.svg"/>&nbsp;&nbsp; </p>
+
+                          </div>
+                          <div class="col-md-6"></div>
+                            
+        
+                            
+                      </div>  
+                      <div class="col-md-6 item-review">
+                            <h5 class="border-no">AMENITIES RATINGS</h5>
+                                <p class="border-no gray">Rooms <span class="pull-right"><img src="https://static.tacdn.com/img2/ratings/traveler/ss4.0.gif"></span> </p>
+                                <p class="border-no gray">Service <span class="pull-right"><img src="https://static.tacdn.com/img2/ratings/traveler/ss4.0.gif"></span> </p>
+                                <p class="border-no gray">Cleanliness <span class="pull-right"><img src="https://static.tacdn.com/img2/ratings/traveler/ss4.0.gif"></span> </p>
+                                <p class="border-no gray">Sleep Quality <span class="pull-right"><img src="https://static.tacdn.com/img2/ratings/traveler/ss4.0.gif"></span> </p>
+
+        
+                      </div> 
+                     
+                      <div class="clearfix"></div>
+        
+        
+        
+                      </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+
+
+   
+ 
+  
+
+
+
+        <!-- partial -->
+          <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js'></script>
+        <script src='http://hydrolog.weblider24.pl/wp-content/themes/taco/js/js-sliderWithProgressbar.js'></script>
+        <script>
+            if ( $('.product__slider-main').length ) {
+        var $slider = $('.product__slider-main')
+            .on('init', function(slick) {
+                $('.product__slider-main').fadeIn(1000);
+            })
+            .slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                autoplay: true,
+                lazyLoad: 'ondemand',
+                autoplaySpeed: 30000,
+                asNavFor: '.product__slider-thmb',
+                prevArrow: false,
+    nextArrow: false
+            });
+
+    var $slider2 = $('.product__slider-thmb')
+            .on('init', function(slick) {
+                $('.product__slider-thmb').fadeIn(1000);
+            })
+            .slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                lazyLoad: 'ondemand',
+                asNavFor: '.product__slider-main',
+                dots: false,
+                centerMode: false,
+                focusOnSelect: true,
+                prevArrow: false,
+                nextArrow: false
+            });
+
+ //remove active class from all thumbnail slides
+ $('.product__slider-thmb .slick-slide').removeClass('slick-active');
+
+ //set active class to first thumbnail slides
+ $('.product__slider-thmb .slick-slide').eq(0).addClass('slick-active');
+
+ // On before slide change match active thumbnail to current slide
+ $('.product__slider-main').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+ 	var mySlideNumber = nextSlide;
+ 	$('.product__slider-thmb .slick-slide').removeClass('slick-active');
+ 	$('.product__slider-thmb .slick-slide').eq(mySlideNumber).addClass('slick-active');
+});
+  
+  
+  // init slider
+require(['js-sliderWithProgressbar'], function(slider) {
+
+    $('.product__slider-main').each(function() {
+
+        me.slider = new slider($(this), options, sliderOptions, previewSliderOptions);
+
+        // stop slider
+        //me.slider.stop();
+
+        // start slider
+        //me.slider.start(index);
+
+        // get reference to slick slider
+        //me.slider.getSlick();
+
+    });
+});
+  var options = {
+    progressbarSelector    : '.bJS_progressbar'
+    , slideSelector        : '.bJS_slider'
+    , previewSlideSelector : '.bJS_previewSlider'
+    , progressInterval     : ''
+        // add your own progressbar animation function to sync it i.e. with a video
+        // function will be called if the current preview slider item (".b_previewItem") has the data-customprogressbar="true" property set
+    , onCustomProgressbar : function($slide, $progressbar) {}
+}
+
+    // slick slider options
+    // see: https://kenwheeler.github.io/slick/
+var sliderOptions = {
+    slidesToShow   : 1,
+    slidesToScroll : 1,
+    arrows         : false,
+    fade           : true,
+    autoplay       : true
+}
+
+    // slick slider options
+    // see: https://kenwheeler.github.io/slick/
+var previewSliderOptions = {
+    slidesToShow   : 3,
+    slidesToScroll : 1,
+    dots           : false,
+    focusOnSelect  : true,
+    centerMode     : true
+}
+}
+    </script>
+</body>
+</html>
