@@ -1,0 +1,58 @@
+
+.container{
+    margin:20px 10px;
+}
+table{
+    width:100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+table tr td{
+    border: 1px solid black;
+    padding: 4px;
+    font-size:12px
+    
+}
+table tr td span{
+    border-bottom: 1px solid black;
+ 
+    
+}
+.table1 tr td{
+  
+    
+}
+.address td{
+    padding: 13px 4px;
+}
+.title{
+    font-weight: 600;
+}
+.title-blue{
+color:rgb(0, 110, 255);
+}
+.title-orange{
+    color:orangered;
+    }
+    .logo{
+        float: right;
+        position: absolute;
+        right: 24px;
+        top: 0px;
+        width: 137px;
+    }
+    h1{
+        padding: 0px;
+        margin: 0;
+    }
+ .space{
+     border-top:none;
+     
+ }   
+
+ @media print {
+    .space{
+        border-top:none;
+        
+    } 
+}
