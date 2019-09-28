@@ -248,7 +248,7 @@ input[type=number]::-webkit-outer-spin-button {
     justify-content: center;
     cursor: pointer;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255)!important;
     font-size: 14px;
     background-color: rgb(14, 181, 80);
     padding: 16px;
@@ -476,4 +476,16 @@ padding:0px;
 :-moz-placeholder { /* Firefox 18- */
 
     font-weight:600;
+}
+
+
+/* booking page css */
+.bookin-print{
+
+}
+.bookin-print span{
+        margin-right:20px;
+}
+.print-wrap span{
+
 }
